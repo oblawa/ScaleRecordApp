@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScaleRecordApp.Views.AddCargoPage"
+             Title="Редактирование грузов">
+    <Grid ColumnDefinitions="3*, 2*">
+        <!-- Список грузов -->
+        <Grid Grid.Column="0">
+            <Border Padding="10" Margin="10">
+                <CollectionView ItemsSource="{Binding CargoItems}"
+                                SelectedItem="{Binding SelectedCargoItemVM, Mode=TwoWay}"
+                                SelectionMode="Single"
+                                Background="AliceBlue">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10" BackgroundColor="{Binding Index, Converter={StaticResource IndexToColorConverter}}">
+                                <Label FontSize="25"
+                                       Text="{Binding DisplayText}" />
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Border>
+        </Grid>
+
+        <!-- Форма добавления/редактирования -->
+        <Grid Grid.Column="1">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <HorizontalStackLayout HorizontalOptions="Center">
+                    <Label Text="{Binding FormTitle}" 
+                           VerticalTextAlignment="End" 
+                           FontSize="25"/>
+                    <Image Source="net.png" WidthRequest="80" Margin="20, 0, 0, 0"/>
+                </HorizontalStackLayout>
+
+                <Entry FontSize="20" 
+                       Placeholder="Название" 
+                       Text="{Binding Name}" 
+                       Margin="20" WidthRequest="400"/>
+
+                <Entry FontSize="20" 
+                       Placeholder="Тип (необязательно)" 
+                       Text="{Binding Kind}" 
+                       WidthRequest="400" Margin="20, 0, 20, 20"/>
+
+                <Entry FontSize="20" 
+                       Placeholder="Сорт (необязательно)" 
+                       Text="{Binding Variety}" 
+                       WidthRequest="400" Margin="20, 0, 20, 20"/>
+                <Grid ColumnSpacing="20" HorizontalOptions="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Кнопка Сохранить -->
+                    <Button Grid.Column="0"
+                            FontSize="20"
+                            Text="Сохранить"
+                            Command="{Binding SaveCargoCommand}"
+                            WidthRequest="180"
+                            HeightRequest="50"
+                            HorizontalOptions="End"/>   
+
+                    <!-- Кнопка Удалить -->
+                    <Button Grid.Column="1"
+                            FontSize="20"
+                            Text="Удалить"
+                            BackgroundColor="#b891ff"
+                            Command="{Binding DeleteCargoCommand}"
+                            IsVisible="{Binding IsDeleteVisible}"
+                            WidthRequest="180"
+                            HeightRequest="50"
+                            HorizontalOptions="Start"/>
+                </Grid>
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

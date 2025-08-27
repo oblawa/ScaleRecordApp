@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScaleRecordApp.Views.AddVehiclePage"
+             Title="Редактирование тар">
+    <Grid ColumnDefinitions="1*,1*">
+        <!-- Список машин -->
+        <Border Padding="10" Margin="10">
+            <CollectionView ItemsSource="{Binding VehicleItems}" SelectionMode="Single"
+                        SelectedItem="{Binding SelectedVehicleItemVM, Mode=TwoWay}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10"
+                              BackgroundColor="{Binding Index, Converter={StaticResource IndexToColorConverter}}">
+                            <Label Text="{Binding DisplayText}" FontSize="25"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>           
+        </Border>
+
+        <!-- Форма редактирования -->
+        <VerticalStackLayout Grid.Column="1" Padding="20" Margin="90, 50, 90, 50">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="{Binding FormTitle}" VerticalTextAlignment="Center" FontSize="25"/>
+                <Image Source="tare.png" WidthRequest="80" Margin="20, 0, 0, 0"/>
+            </HorizontalStackLayout>
+            <Entry FontSize="20" Placeholder="Название машины" Margin="20" WidthRequest="500" Text="{Binding Name}"/>
+            <Entry FontSize="20" Placeholder="Гос номер (необязательно)" WidthRequest="500" Margin="20, 0, 20, 20" Text="{Binding Number}"/>
+            <Entry FontSize="20" Placeholder="Масса (кг)" Keyboard="Numeric" WidthRequest="500" Margin="20, 0, 20, 20" Text="{Binding TareWeight}"/>
+            <Editor FontSize="20" Placeholder="Описание (необязательно)" HeightRequest="80" WidthRequest="500" AutoSize="TextChanges"  Text="{Binding Description}"/>
+            <Grid ColumnSpacing="20" HorizontalOptions="Center" Margin="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Кнопка Сохранить -->
+                <Button Grid.Column="0"
+                          FontSize="20"
+                          Text="Сохранить"
+                          Command="{Binding SaveVehicleCommand}"
+                          WidthRequest="180"
+                          HeightRequest="50"
+                          HorizontalOptions="End"/>
+
+                <!-- Кнопка Удалить -->
+                <Button Grid.Column="1"
+                          FontSize="20"
+                          Text="Удалить"
+                          BackgroundColor="#b891ff"
+                          Command="{Binding DeleteVehicleCommand}"
+                          IsVisible="{Binding IsDeleteVisible}"
+                          WidthRequest="180"
+                          HeightRequest="50"
+                          HorizontalOptions="Start"/>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+    <!--<VerticalStackLayout Margin="200, 50, 200, 50">
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Label Text="Добавить новую тару" VerticalTextAlignment="Center" FontSize="25"/>
+            <Image Source="tare.png" WidthRequest="80" Margin="20, 0, 0, 0"/>
+        </HorizontalStackLayout>
+        <Entry Placeholder="Название машины" Margin="20" WidthRequest="600" Text="{Binding Name}"/>
+        <Entry Placeholder="Гос номер (необязательно)" WidthRequest="600" Margin="20, 0, 20, 20" Text="{Binding Number}"/>
+        <Entry Placeholder="Масса (т)" Keyboard="Numeric" WidthRequest="600" Margin="20, 0, 20, 20" Text="{Binding TareWeight}"/>
+        <Editor Placeholder="Описание (необязательно)" WidthRequest="600" Margin="20, 0, 20, 0" Text="{Binding Description}"/>
+
+        <Button Text="Сохранить" Command="{Binding SaveVehicleCommand}" Margin="40" WidthRequest="200" HeightRequest="50"/>
+    </VerticalStackLayout>-->
+</ContentPage>

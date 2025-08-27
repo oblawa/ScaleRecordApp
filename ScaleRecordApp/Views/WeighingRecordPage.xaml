@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ScaleRecordApp.Controls"
+             x:Class="ScaleRecordApp.Views.WeighingRecordPage"
+             Title="Взвесить">
+    
+    <Grid RowDefinitions="5*, 5*, 2*">
+        <!-- Верхний блок выбора сущностей -->
+        <Grid Grid.Row="0" Margin="20, 20, 20, 0" Background="AliceBlue" RowDefinitions="Auto, Auto">
+            <!-- Ряд 1: Машина | (разделитель) | Груз | (разделитель) | Сезон -->
+            <Grid Grid.Row="0"  ColumnDefinitions="4*, 1*, 4*">
+                <!-- Машина -->
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="🚚 Машина:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <controls:CustomPicker
+                        TextColor="#2b0b98"
+                        WidthRequest="300"
+                        HeightRequest="60"
+                        HorizontalOptions="End"
+                        FontSize="25"
+                        ItemsSource="{Binding Vehicles}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedVehicle, Mode=TwoWay}"
+                        ExtraCommand="{Binding AddVehicleCommand}" />
+                </HorizontalStackLayout>
+
+                <!-- Груз -->
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="🌾 Груз:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <controls:CustomPicker                    
+                        TextColor="#2b0b98"
+                        WidthRequest="300"
+                        HeightRequest="60"
+                        HorizontalOptions="End"
+                        FontSize="25"
+                        ItemsSource="{Binding CargoTypes}"
+                        ItemDisplayBinding="{Binding DisplayName}"
+                        SelectedItem="{Binding SelectedCargoType, Mode=TwoWay}"
+                        ExtraCommand="{Binding AddCargoCommand}" />
+                </HorizontalStackLayout>
+            </Grid>
+
+            <!-- Ряд 2: Откуда/Источник -> Куда -->
+            <Grid Grid.Row="1" ColumnDefinitions="4*, 1*, 4*" VerticalOptions="Start">
+                <VerticalStackLayout Grid.Column="0" Margin="0,30,0,0">
+                    <!-- Откуда -->
+                    <HorizontalStackLayout HorizontalOptions="End" VerticalOptions="Start" Margin="0,0, 40,0">
+                        <Label Text="📥 Откуда:" VerticalOptions="Center" FontSize="25" Margin="0, 0, 10, 0" />
+                        <controls:CustomPicker
+                                TextColor="#2b0b98"
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding Destinations}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedFrom, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddFromDestinationCommand}" />
+                    </HorizontalStackLayout>
+
+                    <!-- Источник -->
+                    <HorizontalStackLayout HorizontalOptions="End"  VerticalOptions="Start" Margin="0,0,40,0">
+                        <Label Text="🔎 Источник:" VerticalOptions="Center" FontSize="25" Margin="0, 0, 10, 0"/>
+                        <controls:CustomPicker
+                                TextColor="#2b0b98"
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding Sources}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedSource, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddSourceCommand}" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+                <!-- стрелка -->
+                <Path Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Stroke="Black" StrokeThickness="3"
+                  Data="M0,20 L100,20 L80,0 M100,20 L80,40"  />
+
+                <!-- Куда -->
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="📤 Куда:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <controls:CustomPicker
+                                TextColor="#2b0b98"
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding FilteredDestinations}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedTo, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddToDestinationCommand}" />
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+        <!-- Блок весов -->
+        <Grid Grid.Row="1" Margin="20" Background="White" RowDefinitions="Auto, Auto" ColumnDefinitions="3*, 1*, 3*, 1*, 3*">
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Image Source="gross.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0" WidthRequest="130">
+                <Image Source="tare.png" />
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="0" WidthRequest="130">
+                <Image Source="net.png" />
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <HorizontalStackLayout Grid.Column="0" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Entry Text="{Binding GrossWeight}" 
+                           Keyboard="Numeric" 
+                           Placeholder="Брутто" 
+                           FontSize="50" 
+                           HorizontalTextAlignment="Center"
+                           WidthRequest="200"/>
+                    <Label Text="кг" FontSize="50" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+
+                <!--<Entry Text="{Binding GrossWeight}" Keyboard="Numeric" Placeholder="Брутто" FontSize="50" HorizontalTextAlignment="Center"/>-->
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Label Text="-" FontSize="70" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <HorizontalStackLayout Grid.Column="0" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Entry Text="{Binding TareWeight}" 
+                             Keyboard="Numeric" 
+                             Placeholder="Брутто" 
+                             FontSize="50" 
+                             HorizontalTextAlignment="Center"
+                             WidthRequest="200"/>
+                    <Label Text="кг" FontSize="50" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Label Text="=" FontSize="70" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="1">
+                <HorizontalStackLayout Grid.Column="0" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Entry Text="{Binding NetWeight}" 
+                             Keyboard="Numeric" 
+                             Placeholder="Брутто" 
+                             FontSize="50" 
+                             HorizontalTextAlignment="Center"
+                             WidthRequest="200"/>
+                    <Label Text="кг" FontSize="50" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+        <!-- Низ: Комментарий слева, Сохранить справа -->
+        <Grid Grid.Row="2" ColumnDefinitions="*,Auto, Auto" Padding="20, 0, 20, 20">
+            <HorizontalStackLayout Grid.Row="0" HorizontalOptions="Start">
+                <Label Text="Сезон:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                <controls:CustomPicker
+                        TextColor="#2b0b98"
+                        WidthRequest="150"
+                        HeightRequest="60"
+                        HorizontalOptions="End"
+                        FontSize="25"
+                        ItemsSource="{Binding Seasons}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedSeason, Mode=TwoWay}"
+                        ExtraCommand="{Binding AddSeasonCommand}" />
+            </HorizontalStackLayout>
+            <Editor Grid.Column="1"                    
+                    TextColor="#2b0b98"
+                    Text="{Binding Comment}"
+                    Placeholder="Комментарий"
+                    AutoSize="TextChanges"
+                    MaximumHeightRequest="120"
+                    WidthRequest="700"
+                    FontSize="20"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center"/>
+
+            <Button Grid.Column="2" FontSize="25" Text="Сохранить" Margin="40, 20, 0, 20" WidthRequest="200" HeightRequest="80"
+                    HorizontalOptions="End"
+                    Command="{Binding SaveCommand}"/>
+        </Grid>
+    </Grid>
+</ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ScaleRecordApp.Controls"
+             x:Class="ScaleRecordApp.Views.WeighingRecordPage"
+             Title="WeighingRecordPage">
+    <Grid RowDefinitions="5*, 5*, 2*">
+        <Grid Grid.Row="0" Margin="20, 20, 20, 0" Background="AliceBlue" RowDefinitions="1*, 1*">
+            <Grid Grid.Row="0" ColumnDefinitions="4*, 1*, 4*">
+                --><!-- Машина --><!--
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Машина:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    --><!--<Picker WidthRequest="300" HeightRequest="20"
+                        ItemsSource="{Binding Vehicles}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedVehicle}">
+                    </Picker>--><!--
+                    <controls:CustomPicker
+                        WidthRequest="300"
+                        HeightRequest="60"
+                        HorizontalOptions="End"
+                        FontSize="25"
+                        ItemsSource="{Binding Vehicles}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedVehicle, Mode=TwoWay}"
+                        ExtraCommand="{Binding AddVehicleCommand}" />
+
+                </HorizontalStackLayout>
+
+                --><!-- Груз --><!--
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Груз:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <controls:CustomPicker
+                        WidthRequest="300"
+                        HeightRequest="60"
+                        HorizontalOptions="End"
+                        FontSize="25"
+                        ItemsSource="{Binding CargoTypes}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedCargoType, Mode=TwoWay}"
+                        ExtraCommand="{Binding AddCargoCommand}" />
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Grid Grid.Row="1" ColumnDefinitions="4*, 1*, 4*" VerticalOptions="Start">
+                <VerticalStackLayout>
+                    --><!-- Откуда --><!--
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="End" VerticalOptions="Start" Margin="0,0,40,0">
+                        <Label Text="Откуда:" VerticalOptions="Center" FontSize="25" Margin="0, 0, 10, 0"/>
+                        <controls:CustomPicker
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding Destinations}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedFrom, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddDestinationCommand}" />
+                    </HorizontalStackLayout>
+
+                    --><!-- Источник --><!--
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="End"  VerticalOptions="Start" Margin="0,0,40,0">
+                        <Label Text="Источник:" VerticalOptions="Center" FontSize="25" Margin="0, 0, 10, 0"/>
+                        <controls:CustomPicker
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding Sources}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedSource, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddSourceCommand}" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+
+                --><!-- стрелка --><!--
+                <Path Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Stroke="Black" StrokeThickness="3"
+                  Data="M0,20 L100,20 L80,0 M100,20 L80,40"  />
+
+                --><!-- Куда --><!--
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Куда:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <controls:CustomPicker
+                                WidthRequest="300"
+                                HeightRequest="60"
+                                HorizontalOptions="End"
+                                FontSize="25"
+                                ItemsSource="{Binding Destinations}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedTo, Mode=TwoWay}"
+                                ExtraCommand="{Binding AddDestinationCommand}" />
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+        --><!-- Весы --><!--
+        <Grid Grid.Row="1" Margin="20" Background="White" RowDefinitions="1*, 1*" ColumnDefinitions="3*, 1*, 3*, 1*, 3*">
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Image Source="gross.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0" WidthRequest="130">
+                <Image Source="tare.png" />
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="0" WidthRequest="130">
+                <Image Source="net.png" />
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Entry Text="{Binding GrossWeight}" Keyboard="Numeric" Placeholder="Брутто" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Label Text="-" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Entry Text="{Binding TareWeight}" Keyboard="Numeric" Placeholder="Тара" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Label Text="=" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="1">
+                <Entry Text="{Binding NetWeight}" IsReadOnly="True" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Grid>
+
+        --><!-- Кнопка --><!--
+        <Grid Grid.Row="2">
+            <HorizontalStackLayout>
+                <Button FontSize="25" Text="Сохранить" Margin="40, 20, 40, 40" WidthRequest="200" HeightRequest="80" HorizontalOptions="End"
+                    Command="{Binding SaveCommand}"/>
+            </HorizontalStackLayout>
+        </Grid>
+    </Grid>
+
+</ContentPage>-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--<Grid RowDefinitions="5*, 5*, 2*">
+        --><!-- Верхний блок с выбором Машины, Груза, Откуда-Куда-Источник --><!--
+        <Grid Grid.Row="0" Margin="20, 20, 20, 0" Background="AliceBlue" RowDefinitions="1*, 1*">
+
+            --><!-- Машина и Груз --><!--
+            <Grid Grid.Row="0" ColumnDefinitions="4*, 1*, 4*">
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Машина:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"
+                        ItemsSource="{Binding Vehicles}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedVehicle}"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Груз:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"
+                        ItemsSource="{Binding CargoTypes}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedCargoType}"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            --><!-- Откуда - Источник - Куда --><!--
+            <Grid Grid.Row="1" ColumnDefinitions="4*, 1*, 4*">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <Label Text="Откуда:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                        <Picker WidthRequest="300" HeightRequest="20"
+                            ItemsSource="{Binding Destinations}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="{Binding SelectedFrom}"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="End">
+                    <Label Text="Источник:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"
+                        ItemsSource="{Binding Sources}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedSource}"/>
+                </HorizontalStackLayout>
+
+                <Path Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Stroke="Black" StrokeThickness="3"
+                  Data="M0,20 L100,20 L80,0 M100,20 L80,40"  />
+
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Куда:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"
+                        ItemsSource="{Binding Destinations}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedTo}"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+        --><!-- Веса --><!--
+        <Grid Grid.Row="1" Margin="20" Background="White" RowDefinitions="1*, 1*" ColumnDefinitions="3*, 1*, 3*, 1*, 3*">
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Image Source="gross.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0" WidthRequest="130">
+                <Image Source="tare.png" />
+            </Grid>
+            <Grid Grid.Column="5" Grid.Row="0" WidthRequest="130">
+                <Image Source="net.png" />
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Entry Text="{Binding GrossWeight, Mode=TwoWay}" 
+                   VerticalOptions="Start" Keyboard="Numeric" 
+                   Placeholder="Брутто" FontSize="50" 
+                   HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Label Text="-" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start" Margin="0"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Entry Text="{Binding TareWeight, Mode=TwoWay}" 
+                   VerticalOptions="Start" Keyboard="Numeric" 
+                   Placeholder="Тара" FontSize="50" 
+                   HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Label Text="=" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start" Margin="0"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="1">
+                <Entry Text="{Binding NetWeight}" 
+                   IsReadOnly="True" VerticalOptions="Start" 
+                   Keyboard="Numeric" Placeholder="Нетто" 
+                   FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Grid>
+
+        --><!-- Кнопка сохранить --><!--
+        <Grid Grid.Row="2">
+            <Button FontSize="25" Text="Сохранить" 
+                Command="{Binding SaveCommand}" 
+                Margin="40, 20, 40, 40" WidthRequest="200" HeightRequest="80"/>
+        </Grid>
+    </Grid>-->
+    <!--<Grid RowDefinitions="5*, 5*, 2*">
+        <Grid Grid.Row="0" Margin="20, 20, 20, 0" Background="AliceBlue" RowDefinitions="1*, 1*">
+            <Grid Grid.Row="0" ColumnDefinitions="4*, 1*, 4*">
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Машина:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Груз:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"/>
+                </HorizontalStackLayout>
+            </Grid>
+            <Grid Grid.Row="1" ColumnDefinitions="4*, 1*, 4*">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <Label Text="Откуда:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                        <Picker WidthRequest="300" HeightRequest="20"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="End">
+                    <Label Text="Источник:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"/>
+                </HorizontalStackLayout>
+                <Path Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Stroke="Black" StrokeThickness="3"
+               Data="M0,20 L100,20 L80,0 M100,20 L80,40"  />
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Куда:" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" HeightRequest="20"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Margin="20" Background="White" RowDefinitions="1*, 1*" ColumnDefinitions="3*, 1*, 3*, 1*, 3*">
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Image Source="gross.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0" WidthRequest="130">
+                <Image Source="tare.png" />
+            </Grid>
+            <Grid Grid.Column="5" Grid.Row="0" WidthRequest="130">
+                <Image Source="net.png" />
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Entry Text="" VerticalOptions="Start" Keyboard="Numeric" Placeholder="Брутто" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Label Text="-" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start" Margin="0"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Entry Text="" VerticalOptions="Start" Keyboard="Numeric" Placeholder="Тара" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Label Text="=" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start" Margin="0"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="1">
+                <Entry Text="" IsReadOnly="True" VerticalOptions="Start" Keyboard="Numeric" Placeholder="Нетто" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button FontSize="25" Text="Сохранить" Margin="40, 20, 40, 40" WidthRequest="200" HeightRequest="80"/>
+        </Grid>
+    </Grid>-->
+
+
+    <!--<Grid RowDefinitions="5*, 5*, 2*">
+        --><!-- Первая секция --><!--
+        <Grid Grid.Row="0" Margin="20, 20, 20, 0" Background="AliceBlue" RowDefinitions="1*, 1*">
+            <Grid Grid.Row="0" ColumnDefinitions="4*, 1*, 4*">
+                <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Машина:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" VerticalOptions="Center" ItemsSource="{Binding Vehicles}" FontSize="25"
+                            ItemDisplayBinding="{Binding Name}" 
+                            SelectedItem="{Binding SelectedVehicle}" />
+                </HorizontalStackLayout>
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Груз:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" VerticalOptions="Center" ItemsSource="{Binding Cargos}" FontSize="25"
+                            ItemDisplayBinding="{Binding Name}" 
+                            SelectedItem="{Binding SelectedCargo}" />
+                </HorizontalStackLayout>
+            </Grid>
+            <Grid Grid.Row="1" ColumnDefinitions="4*, 1*, 4*">
+                <VerticalStackLayout>
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center">
+                        <Label Text="Откуда:" VerticalOptions="Center" FontSize="25" Margin="10"/>
+                        <Picker WidthRequest="300"  ItemsSource="{Binding Destinations}" VerticalOptions="Center" FontSize="25"
+                                ItemDisplayBinding="{Binding Name}" 
+                                SelectedItem="{Binding SelectedDestination}" />
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Grid.Column="0" HorizontalOptions="Center" Margin="0,0,0,0">
+                        <Label Text="Источник:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                        <Picker WidthRequest="300" ItemsSource="{Binding Sources}" VerticalOptions="Center" FontSize="25"
+                                ItemDisplayBinding="{Binding Name}" 
+                                SelectedItem="{Binding SelectedSource}" />
+                    </HorizontalStackLayout>
+
+                </VerticalStackLayout>
+                <Path Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Stroke="Black" StrokeThickness="3"
+                      Data="M0,20 L100,20 L80,0 M100,20 L80,40"  />
+                <HorizontalStackLayout Grid.Column="2" HorizontalOptions="Center">
+                    <Label Text="Куда:" VerticalOptions="Center" FontSize="25" Margin="20"/>
+                    <Picker WidthRequest="300" ItemsSource="{Binding Destinations}" VerticalOptions="Center" FontSize="25"
+                            ItemDisplayBinding="{Binding Name}" 
+                            SelectedItem="{Binding SelectedDestinationTo}" />
+                </HorizontalStackLayout>
+            </Grid>
+        </Grid>
+
+        --><!-- Вторая секция --><!--
+        <Grid Grid.Row="1" Margin="20" Background="White" RowDefinitions="1*, 1*" ColumnDefinitions="3*, 1*, 3*, 1*, 3*">
+            <Grid Grid.Column="0" Grid.Row="0">
+                <Image Source="gross.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="0">
+                <Image Source="tare.png" WidthRequest="130"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="0">
+                <Image Source="net.png" WidthRequest="130"/>
+            </Grid>
+
+            <Grid Grid.Column="0" Grid.Row="1">
+                <Entry Text="{Binding Gross, Mode=TwoWay}" 
+                       VerticalOptions="Start" Keyboard="Numeric"
+                       Placeholder="Брутто" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="1">
+                <Label Text="-" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Entry Text="{Binding Tare, Mode=TwoWay}" 
+                       VerticalOptions="Start" Keyboard="Numeric"
+                       Placeholder="Тара" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="1">
+                <Label Text="=" FontSize="50" HorizontalOptions="Center" VerticalOptions="Start"/>
+            </Grid>
+            <Grid Grid.Column="4" Grid.Row="1">
+                <Entry Text="{Binding Net}" 
+                       IsReadOnly="True" VerticalOptions="Start" Keyboard="Numeric"
+                       Placeholder="Нетто" FontSize="50" HorizontalTextAlignment="Center"/>
+            </Grid>
+        </Grid>
+
+        --><!-- Кнопка --><!--
+        <Grid Grid.Row="2">
+            <Button FontSize="25" Text="Сохранить"
+                    Command="{Binding SaveCommand}"
+                    Margin="40, 20, 40, 40" WidthRequest="200" HeightRequest="80"/>
+        </Grid>
+    </Grid>-->

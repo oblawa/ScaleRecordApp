@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ScaleRecordApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ScaleRecordApp"
+    xmlns:views="clr-namespace:ScaleRecordApp.Views"
+    Title="ScaleRecordApp">
+
+    <ShellContent
+        Title="⚖️   Взвесить"
+        ContentTemplate="{DataTemplate views:WeighingRecordPage}"
+        Route="AddWeighingPage"/>
+    <ShellContent
+        Title="🚚   Машины"
+        ContentTemplate="{DataTemplate views:AddVehiclePage}"
+        Route="AddVehiclePage"/>
+    <ShellContent
+        Title="🌾   Грузы"
+        ContentTemplate="{DataTemplate views:AddCargoPage}"
+        Route="AddCargoPage"/>
+    <ShellContent
+        Title="📋   История"
+        ContentTemplate="{DataTemplate views:HistoryPage}"
+        Route="HistoryPage"/>
+    <ShellContent
+        Title="    Настройки"
+        ContentTemplate="{DataTemplate views:BackupSettingsPage}"
+        Route="BackupSettingsPage"/>
+</Shell>

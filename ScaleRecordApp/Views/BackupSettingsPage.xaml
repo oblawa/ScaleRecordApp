@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScaleRecordApp.Views.BackupSettingsPage"
+             Title="Резервное копирование">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+            <Grid ColumnDefinitions="*,Auto" VerticalOptions="Center">
+                <Label Text="Резервное копирование" FontAttributes="Bold"/>
+                <Switch Grid.Column="1" IsToggled="{Binding IsEnabled}"/>
+            </Grid>
+
+            <Frame IsVisible="{Binding IsEnabled}" Padding="16" HasShadow="False" BorderColor="{DynamicResource SeparatorColor}">
+                <VerticalStackLayout Spacing="12">
+                    <Label Text="Куда отправлять отчёт" FontAttributes="Bold"/>
+                    <Entry Placeholder="@username или числовой chat_id" Text="{Binding ChatId}" Keyboard="Chat"/>
+                    <Label TextColor="Red" FontSize="12" Text="{Binding ChatIdError}" IsVisible="{Binding ChatIdError, Converter={StaticResource NullToBool}}" />
+
+                    <Label Text="Период отправки" FontAttributes="Bold"/>
+                    <Picker ItemsSource="{Binding Periods}"
+                            ItemDisplayBinding="{Binding Title}"
+                            SelectedItem="{Binding SelectedPeriod}"/>
+                    <Label TextColor="Red" FontSize="12" Text="{Binding PeriodError}" IsVisible="{Binding PeriodError, Converter={StaticResource NullToBool}}" />
+
+                    <Label FontSize="12"
+                           Text="Важно: бот может отправлять только тем пользователям/чатам, которые начали диалог с ботом. Убедитесь, что вы написали вашему боту хотя бы одно сообщение."/>
+                    <Button Text="Сохранить" Command="{Binding SaveCommand}" IsEnabled="{Binding CanSave}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
