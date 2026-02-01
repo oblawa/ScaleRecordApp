@@ -76,6 +76,8 @@ namespace ScaleRecordApp
 
             builder.Services.AddTransient<HistoryPage>();
             builder.Services.AddTransient<HistoryVM>();
+            builder.Services.AddSingleton<FieldsVM>();
+            builder.Services.AddSingleton<FieldsPage>();
 
 
 
@@ -91,22 +93,9 @@ namespace ScaleRecordApp
             builder.Services.AddTransient<BackupSettingsViewModel>();
             builder.Services.AddTransient<BackupSettingsPage>();
 
-
-
-
-
-
-
-
-
-
             // register pages/viewmodels as needed
             //builder.Services.AddTransient<Views.WeighingRecordPage>();
             //builder.Services.AddTransient<ViewModels.WeighingRecordViewModel>();
-
-
-
-
 
             var app = builder.Build();
 

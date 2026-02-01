@@ -12,6 +12,7 @@
             </ResourceDictionary.MergedDictionaries>
             <convs:NullToBoolConverter x:Key="NullToBool" />
             <convs:IndexToColorConverter x:Key="IndexToColorConverter"/>
+            <convs:IndexToMarginConverter x:Key="IndexToMarginConverter"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

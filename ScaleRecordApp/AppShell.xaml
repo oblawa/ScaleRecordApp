@@ -24,6 +24,10 @@
         ContentTemplate="{DataTemplate views:HistoryPage}"
         Route="HistoryPage"/>
     <ShellContent
+        Title="🖼️   Поля"
+        ContentTemplate="{DataTemplate views:FieldsPage}"
+        Route="FieldsPage"/>
+    <ShellContent
         Title="    Настройки"
         ContentTemplate="{DataTemplate views:BackupSettingsPage}"
         Route="BackupSettingsPage"/>

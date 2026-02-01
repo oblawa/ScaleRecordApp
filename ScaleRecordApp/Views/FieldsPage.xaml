@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ScaleRecordApp.ViewModels"
+    x:Class="ScaleRecordApp.Views.FieldsPage"
+    Title="Поля">
+    
+    <ContentPage.BindingContext>
+        <viewmodels:FieldsVM />
+    </ContentPage.BindingContext>
+    <Grid ColumnDefinitions="1*,1*">
+        <!-- Список полей -->
+        <Border Padding="10" Margin="10">
+            <CollectionView ItemsSource="{Binding Items}" SelectionMode="Single"
+                    SelectedItem="{Binding SelectedItem, Mode=TwoWay}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10"
+                          BackgroundColor="{Binding Index, Converter={StaticResource IndexToColorConverter}}" Margin="{Binding Index, Converter={StaticResource IndexToMarginConverter}}">
+                            <Label Text="{Binding DisplayText}" FontSize="25"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Border>
+
+        <!-- Форма редактирования -->
+        <VerticalStackLayout Grid.Column="1" Padding="20" Margin="90, 50, 90, 50">
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label Text="{Binding FormTitle}" VerticalTextAlignment="Center" FontSize="25"/>
+                <Image Source="field.png" WidthRequest="80" Margin="20, 0, 0, 0"/>
+            </HorizontalStackLayout>
+            <Entry FontSize="20" Placeholder="Номер поля" Keyboard="Numeric" Margin="20" WidthRequest="500" Text="{Binding Number}"/>
+            <Entry FontSize="20" Placeholder="Название поля (необязательно)" Margin="20" WidthRequest="500" Text="{Binding Name}"/>
+            <Entry FontSize="20" Placeholder="Площадь (га)" Keyboard="Numeric" WidthRequest="500" Margin="20, 0, 20, 20" Text="{Binding AreaHa}"/>
+            <Entry FontSize="20" Placeholder="Местоположение (необязательно)" WidthRequest="500" Margin="20, 0, 20, 20" Text="{Binding Location}"/>
+            <Editor FontSize="20" Placeholder="Описание (необязательно)" HeightRequest="80" WidthRequest="500" AutoSize="TextChanges"  Text="{Binding Description}"/>
+            <Grid ColumnSpacing="20" HorizontalOptions="Center" Margin="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Кнопка Сохранить -->
+                <Button Grid.Column="0"
+                      FontSize="20"
+                      Text="Сохранить"
+                      Command="{Binding SaveFieldCommand}"
+                      WidthRequest="180"
+                      HeightRequest="50"
+                      HorizontalOptions="End"/>
+
+                <!-- Кнопка Удалить -->
+                <Button Grid.Column="1"
+                      FontSize="20"
+                      Text="Удалить"
+                      BackgroundColor="#b891ff"
+                      Command="{Binding DeleteFieldCommand}"
+                      IsVisible="{Binding IsDeleteVisible}"
+                      WidthRequest="180"
+                      HeightRequest="50"
+                      HorizontalOptions="Start"/>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+    <!--<ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="10">
+
+            --><!-- Список полей --><!--
+            <CollectionView ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5" Margin="5" BorderColor="Gray">
+                            <VerticalStackLayout>
+                                <Label Text="{Binding DisplayName}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Location}" FontSize="Small"/>
+                                <Label Text="{Binding Description}" FontSize="Small" TextColor="Gray"/>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            --><!-- Редактор/форма --><!--
+            <Entry Placeholder="Номер (опц.)" Text="{Binding Number}" Keyboard="Numeric"/>
+            <Entry Placeholder="Название (опц.)" Text="{Binding Name}"/>
+            <Entry Placeholder="Площадь, га (опц.)" Text="{Binding AreaHa}" Keyboard="Numeric"/>
+            <Entry Placeholder="Локация (опц.)" Text="{Binding Location}"/>
+            <Entry Placeholder="Описание (опц.)" Text="{Binding Description}"/>
+
+            --><!-- Кнопки --><!--
+            <HorizontalStackLayout Spacing="10">
+                <Button Text="Добавить" Command="{Binding AddCommand}"/>
+                <Button Text="Обновить" Command="{Binding UpdateCommand}" IsEnabled="{Binding SelectedItem}"/>
+                <Button Text="Удалить" Command="{Binding DeleteCommand}" IsEnabled="{Binding SelectedItem}"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>-->
+</ContentPage>

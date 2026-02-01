@@ -3,111 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\barn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\barn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\weighingrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\weighingrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\historyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\historyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\weighingrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\weighingrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\weighingrecordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\weighingrecordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\backupsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\backupsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\backupsettingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\backupsettingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\converters\\nulltoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\converters\\nulltoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\converters\\indextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\converters\\indextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hi0ne\\Downloads\\maui_backup_settings_scheduler_ready_to_drop_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\backupsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\backupsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\weighingrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\weighingrecordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\backupsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\backupsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\backupperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\backupperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\addcargopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\addcargopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\helpers\\reportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\helpers\\reportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\helpers\\vehiclesupdatedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\helpers\\vehiclesupdatedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\telegramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\cargotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\cargotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\isettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\ibackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\backupperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\backupperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,16 +87,84 @@
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\weighingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\addcargovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\addcargovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\helpers\\reportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\helpers\\reportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\addvehiclevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\addvehiclevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\services\\settingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\backupsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\backupsettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\weighingrecordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\weighingrecordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\historyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\historyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\fieldsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\fieldsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\fieldspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\fieldspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\converters\\indextomarginconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\converters\\indextomarginconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\fieldspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\fieldspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\converters\\indextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\converters\\indextocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\weighingrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\weighingrecordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\backupsettingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\backupsettingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\converters\\nulltoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\converters\\nulltoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\backupsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\backupsettingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\models\\backupsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\models\\backupsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\controls\\custompicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,22 +175,6 @@
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\controls\\custompickerpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\historypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\addcargopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\addcargopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\addvehiclevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\addvehiclevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\addcargovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\addcargovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\addvehiclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\addvehiclepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -170,20 +183,8 @@
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\addcargopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\helpers\\vehiclesupdatedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\helpers\\vehiclesupdatedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\views\\addvehiclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\views\\addvehiclepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|c:\\users\\hi0ne\\source\\repos\\scalerecordapp\\scalerecordapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C2611F-CB9A-4E4A-9140-08FEB5191DBB}|ScaleRecordApp\\ScaleRecordApp.csproj|solutionrelative:scalerecordapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -192,125 +193,273 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 198,
+          "SelectedChildIndex": 16,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Barn.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Barn.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Barn.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Barn.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Models\\Barn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T05:56:58.33Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Field.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Field.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Field.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Field.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Models\\Field.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "ScaleRecordApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T04:47:59.018Z",
+              "WhenOpened": "2026-02-01T11:43:28.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\MauiProgram.cs",
-              "RelativeToolTip": "ScaleRecordApp\\MauiProgram.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAtwHEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T05:51:27.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeighingRecordVM.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
-              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAAAK0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T14:19:47.065Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AddCargoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddCargoPage.xaml",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\AddCargoPage.xaml",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddCargoPage.xaml",
+              "RelativeToolTip": "ScaleRecordApp\\Views\\AddCargoPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-01T11:42:50.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BackupSettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
+              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T11:41:01.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IndexToMarginConverter.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToMarginConverter.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Resources\\Converters\\IndexToMarginConverter.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToMarginConverter.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Resources\\Converters\\IndexToMarginConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T04:48:53.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FieldsVM.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\FieldsVM.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\FieldsVM.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\FieldsVM.cs",
+              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\FieldsVM.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAAGgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T19:03:48.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FieldsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\FieldsPage.xaml.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\FieldsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\FieldsPage.xaml.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Views\\FieldsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T18:43:56.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FieldsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\FieldsPage.xaml",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\FieldsPage.xaml",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\FieldsPage.xaml",
+              "RelativeToolTip": "ScaleRecordApp\\Views\\FieldsPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAC2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-27T12:52:17.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Vehicle.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T16:38:23.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HistoryPage.xaml",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\HistoryPage.xaml",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml",
               "RelativeToolTip": "ScaleRecordApp\\Views\\HistoryPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHQAAAB5AAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAAAO0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-20T18:28:04.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BackupSettingsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
-              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\BackupSettingsViewModel.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAmwAsAAAArAAAAAAAAAA==",
+              "DocumentIndex": 32,
+              "Title": "IndexToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:07:32.334Z"
+              "WhenOpened": "2025-08-16T08:01:07.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\App.xaml",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\App.xaml",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\App.xaml",
+              "RelativeToolTip": "ScaleRecordApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-22T11:04:31.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Destination.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Destination.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Destination.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Destination.cs",
               "RelativeToolTip": "ScaleRecordApp\\Models\\Destination.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwvzkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:39:08.55Z",
+              "WhenOpened": "2025-08-07T16:39:08.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HistoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\HistoryVM.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\HistoryVM.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\HistoryVM.cs",
+              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\HistoryVM.cs",
+              "ViewState": "AgIAAHgCAAAAAAAAAAAcwJMCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:29:03.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HistoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T18:28:29.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddVehicleVM.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
+              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T05:01:53.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\MauiProgram.cs",
+              "RelativeToolTip": "ScaleRecordApp\\MauiProgram.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T14:15:51.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Field.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Field.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Field.cs",
+              "RelativeToolTip": "ScaleRecordApp\\Models\\Field.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T04:47:59.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml",
+              "RelativeToolTip": "ScaleRecordApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-27T18:57:21.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeighingRecordVM.cs",
+              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
+              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
+              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
+              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\WeighingRecordVM.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAgwL8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:19:47.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\DatabaseService.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\DatabaseService.cs",
               "RelativeToolTip": "ScaleRecordApp\\Services\\DatabaseService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-10T08:41:12.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "maui_backup_settings_scheduler_ready_to_drop_in.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\Downloads\\maui_backup_settings_scheduler_ready_to_drop_in.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\maui_backup_settings_scheduler_ready_to_drop_in.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\Downloads\\maui_backup_settings_scheduler_ready_to_drop_in.cs",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\maui_backup_settings_scheduler_ready_to_drop_in.cs",
-              "ViewState": "AgIAABMCAAAAAAAAAAAAABcCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:05:26.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 35,
               "Title": "WeighingRecordPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\WeighingRecordPage.xaml.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\WeighingRecordPage.xaml.cs",
@@ -322,19 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HistoryVM.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\HistoryVM.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\HistoryVM.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\HistoryVM.cs",
-              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\HistoryVM.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAswOsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T18:29:03.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 36,
               "Title": "BackupSettingsPage.xaml",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\BackupSettingsPage.xaml",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\BackupSettingsPage.xaml",
@@ -342,12 +479,11 @@
               "RelativeToolTip": "ScaleRecordApp\\Views\\BackupSettingsPage.xaml",
               "ViewState": "AgIAABEAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-23T21:08:30.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T21:08:30.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "BackupSettingsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\BackupSettingsPage.xaml.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\BackupSettingsPage.xaml.cs",
@@ -359,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 37,
               "Title": "NullToBoolConverter.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\NullToBoolConverter.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Resources\\Converters\\NullToBoolConverter.cs",
@@ -371,31 +507,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IBackupService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\IBackupService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\IBackupService.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\IBackupService.cs",
               "RelativeToolTip": "ScaleRecordApp\\Services\\IBackupService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:06:50.272Z"
+              "WhenOpened": "2025-08-23T21:06:50.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "IHistoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\IHistoryRepository.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\IHistoryRepository.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\IHistoryRepository.cs",
               "RelativeToolTip": "ScaleRecordApp\\Services\\IHistoryRepository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAowEMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:03:55.595Z"
+              "WhenOpened": "2025-08-23T21:03:55.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 11,
               "Title": "ISettingsService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\ISettingsService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\ISettingsService.cs",
@@ -403,11 +541,12 @@
               "RelativeToolTip": "ScaleRecordApp\\Services\\ISettingsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:03:13.208Z"
+              "WhenOpened": "2025-08-23T21:03:13.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 40,
               "Title": "BackupSettings.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\BackupSettings.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\BackupSettings.cs",
@@ -419,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 16,
               "Title": "BackupPeriod.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\BackupPeriod.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\BackupPeriod.cs",
@@ -427,23 +566,25 @@
               "RelativeToolTip": "ScaleRecordApp\\Models\\BackupPeriod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T21:02:12.135Z"
+              "WhenOpened": "2025-08-23T21:02:12.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 14,
               "Title": "ExcelService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\ExcelService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\ExcelService.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\ExcelService.cs",
               "RelativeToolTip": "ScaleRecordApp\\Services\\ExcelService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T19:57:20.543Z"
+              "WhenOpened": "2025-08-23T19:57:20.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 38,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\App.xaml.cs",
@@ -455,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 10,
               "Title": "SettingsService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\SettingsService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\SettingsService.cs",
@@ -463,11 +604,12 @@
               "RelativeToolTip": "ScaleRecordApp\\Services\\SettingsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:14:26.691Z"
+              "WhenOpened": "2025-08-22T19:14:26.691Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 7,
               "Title": "ReportSettings.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Helpers\\ReportSettings.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Helpers\\ReportSettings.cs",
@@ -475,72 +617,38 @@
               "RelativeToolTip": "ScaleRecordApp\\Helpers\\ReportSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T19:14:06.831Z"
+              "WhenOpened": "2025-08-22T19:14:06.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "WeighingRecordPage.xaml",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\WeighingRecordPage.xaml",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\WeighingRecordPage.xaml",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\WeighingRecordPage.xaml",
               "RelativeToolTip": "ScaleRecordApp\\Views\\WeighingRecordPage.xaml",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAADEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-08-21T14:19:53.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 9,
               "Title": "TelegramService.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\TelegramService.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Services\\TelegramService.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Services\\TelegramService.cs",
               "RelativeToolTip": "ScaleRecordApp\\Services\\TelegramService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwBoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:39:40.843Z"
+              "WhenOpened": "2025-08-21T09:39:40.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CargoType.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\CargoType.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\CargoType.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\CargoType.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Models\\CargoType.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:38:51.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\App.xaml",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\App.xaml",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\App.xaml",
-              "RelativeToolTip": "ScaleRecordApp\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-22T11:04:31.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "HistoryPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Views\\HistoryPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T18:28:29.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 8,
               "Title": "VehiclesUpdatedMessage.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Helpers\\VehiclesUpdatedMessage.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Helpers\\VehiclesUpdatedMessage.cs",
@@ -548,11 +656,12 @@
               "RelativeToolTip": "ScaleRecordApp\\Helpers\\VehiclesUpdatedMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T19:41:05.367Z"
+              "WhenOpened": "2025-08-19T19:41:05.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "AddVehiclePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddVehiclePage.xaml.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\AddVehiclePage.xaml.cs",
@@ -564,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "AddCargoPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddCargoPage.xaml.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\AddCargoPage.xaml.cs",
@@ -576,19 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml.cs",
-              "RelativeToolTip": "ScaleRecordApp\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:45:45.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "CustomPicker.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Controls\\CustomPicker.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Controls\\CustomPicker.cs",
@@ -600,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "CustomPickerPopup.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Controls\\CustomPickerPopup.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Controls\\CustomPickerPopup.cs",
@@ -612,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Styles.xaml",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Resources\\Styles\\Styles.xaml",
@@ -624,81 +721,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AddVehicleVM.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
-              "RelativeToolTip": "ScaleRecordApp\\ViewModels\\AddVehicleVM.cs",
-              "ViewState": "AgIAADIBAAAAAAAAAAAiwPMAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:29:04.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 21,
               "Title": "AddCargoVM.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddCargoVM.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\AddCargoVM.cs",
               "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\AddCargoVM.cs",
               "RelativeToolTip": "ScaleRecordApp\\ViewModels\\AddCargoVM.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAwwMAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T19:03:21.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddCargoPage.xaml",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddCargoPage.xaml",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\AddCargoPage.xaml",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddCargoPage.xaml",
-              "RelativeToolTip": "ScaleRecordApp\\Views\\AddCargoPage.xaml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-17T19:02:45.967Z",
+              "WhenOpened": "2025-08-17T19:03:21.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "AddVehiclePage.xaml",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddVehiclePage.xaml",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Views\\AddVehiclePage.xaml",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Views\\AddVehiclePage.xaml",
-              "RelativeToolTip": "ScaleRecordApp\\Views\\AddVehiclePage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-15T10:34:22.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IndexToColorConverter.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Resources\\Converters\\IndexToColorConverter.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T08:01:07.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\AppShell.xaml",
-              "RelativeToolTip": "ScaleRecordApp\\AppShell.xaml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-08-15T10:37:29.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 23,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\ViewModels\\BaseViewModel.cs",
@@ -706,11 +742,12 @@
               "RelativeToolTip": "ScaleRecordApp\\ViewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T10:17:19.837Z"
+              "WhenOpened": "2025-08-15T10:17:19.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 17,
               "Title": "Season.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Season.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Season.cs",
@@ -718,11 +755,12 @@
               "RelativeToolTip": "ScaleRecordApp\\Models\\Season.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:39:48.048Z"
+              "WhenOpened": "2025-08-07T16:39:48.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 18,
               "Title": "Source.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Source.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Source.cs",
@@ -730,23 +768,12 @@
               "RelativeToolTip": "ScaleRecordApp\\Models\\Source.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:39:38.265Z"
+              "WhenOpened": "2025-08-07T16:39:38.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Vehicle.cs",
-              "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\Vehicle.cs",
-              "RelativeToolTip": "ScaleRecordApp\\Models\\Vehicle.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:38:23.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 20,
               "Title": "WeighingRecord.cs",
               "DocumentMoniker": "C:\\Users\\hi0ne\\source\\repos\\ScaleRecordApp\\ScaleRecordApp\\Models\\WeighingRecord.cs",
               "RelativeDocumentMoniker": "ScaleRecordApp\\Models\\WeighingRecord.cs",
@@ -754,7 +781,8 @@
               "RelativeToolTip": "ScaleRecordApp\\Models\\WeighingRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T16:38:11.95Z"
+              "WhenOpened": "2025-08-07T16:38:11.95Z",
+              "EditorCaption": ""
             }
           ]
         }

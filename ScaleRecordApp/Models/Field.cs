@@ -13,22 +13,24 @@ namespace ScaleRecordApp.Models
         public Guid Id { get; set; } = Guid.NewGuid();
 
         // Например, номер поля и (опц.) его имя
-        public int? Number { get; set; }
+        public string Number { get; set; } = string.Empty;
         public string? Name { get; set; }
 
         // Площадь поля в гектарах для расчёта урожайности
-        public double? AreaHa { get; set; }
+        public double AreaHa { get; set; }
 
         public string? Location { get; set; }
-        public string? Description { get; set; }
+        public string? Description { get; set; } 
 
         [Ignore]
         public string DisplayName
             => string.Join(" | ",
                 new[] {
-                    Number.HasValue ? $"Поле №{Number}" : null,
+                    string.IsNullOrEmpty(Number) ? null : $"Поле №{Number}",
                     string.IsNullOrWhiteSpace(Name) ? null : Name,
-                    AreaHa.HasValue ? $"{AreaHa.Value:0.#} га" : null
+                    AreaHa > 0 && !double.IsNaN(AreaHa) && !double.IsInfinity(AreaHa)
+                    ? $"{AreaHa:0.#} га"
+                    : null
                 }.Where(s => !string.IsNullOrWhiteSpace(s)));
     }
 
